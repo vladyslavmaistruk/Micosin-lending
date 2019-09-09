@@ -1,0 +1,401 @@
+.offer{
+    background-image: url("../../images/offer-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 840px;
+}
+.offer__inner{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.offer__images{
+    /*position: relative;*/
+}
+.offer__images image{
+    display: inline-block;
+}
+.offer__images-photo{
+    position: absolute;
+    width: 571px;
+    height: 572px;
+    left: -100px;
+    top: 70px;
+}
+.offer__images-border{
+    position: absolute;
+    width: 540px;
+    height: 690px;
+    left: -160px;
+    top: 10px;
+}
+.offer__images-foots{
+    position: absolute;
+    width: 747px;
+    height: 579px;
+    left: -260px;
+    top: -95px;
+}
+.offer__images-pills{
+    position: absolute;
+    width: 698px;
+    height: 407px;
+    left: -100px;
+    top: 380px;
+}
+.offer__images-price-orange,
+.offer__images-price-green{
+    color: #fff;
+    font-size: 34px;
+    line-height: 24px;
+    font-weight: 900;
+    position: absolute;
+}
+.offer__images-price-orange{
+    top: 389px;
+    left: 245px;
+}
+.offer__images-price-green{
+    top: 519px;
+    left: 347px;
+}
+.offer__images-price-orange:after,
+.offer__images-price-green:after{
+    font-family: "icomoon";
+    content: "\f158";
+    height: 24px;
+    padding-left: 5px;
+    position: absolute;
+    font-weight: 400;
+    font-size: 32px;
+}
+.offer__rescue,
+.offer__form{
+    margin-top: 15px;
+}
+.offer__rescue{
+    max-width: 400px;
+}
+.offer__rescue-title{
+    font-size: 44px;
+    line-height: 44px;
+    font-weight: 900;
+    color: #383334;
+    padding-right: 75px;
+}
+.offer__rescue-title span{
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 700;
+    position: relative;
+}
+.offer__rescue-title span:first-child:before{
+    content: "";
+    width: 126px;
+    height: 5px;
+    position: absolute;
+    background-color: #ff6b00;
+    bottom: 2px;
+}
+.offer__rescue-title span:last-child:before{
+    content: "";
+    width: 140px;
+    height: 5px;
+    position: absolute;
+    background-color: #a7c93d;
+    bottom: 2px;
+}
+.offer__rescue-item-1,
+.offer__rescue-item-2,
+.offer__rescue-item-3{
+    font-size: 20px;
+    line-height: 24px;
+    color: #444444;
+    margin-top: 35px;
+    padding: 0 20px 0 80px;
+    position: relative;
+}
+.offer__rescue-item-1 span,
+.offer__rescue-item-2 span,
+.offer__rescue-item-3 span{
+    color: #000;
+    font-weight: 700;
+}
+.offer__rescue-item-2 span:first-child{
+    border-bottom: 3px solid #ff6b00;
+}
+.offer__rescue-item-3 span:first-child{
+    border-bottom: 3px solid #a7c93d;
+}
+.offer__rescue-item-1:before,
+.offer__rescue-item-2:before,
+.offer__rescue-item-3:before{
+    content: "";
+    width: 60px;
+    height: 60px;
+    border: 8px solid #e8edc9;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #a7c93d;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+.offer__rescue-item-1:before{
+    content: "2в1";
+}
+.offer__rescue-item-2:before{
+    content: "1";
+}
+.offer__rescue-item-3:before{
+    content: "2";
+}
+.offer__rescue-item-1:after{
+    content: "";
+    background-image: url("../../images/offer-up-arrow.png");
+    width: 9px;
+    height: 146px;
+    position: absolute;
+    left: 25px;
+    top: 75px;
+}
+.offer__form{
+    max-width: 270px;
+    border: 7px solid #a8ca3f;
+    border-radius: 15px;
+    background-color: #fff;
+    position: relative;
+}
+.offer__form:after{
+    content: "";
+    width: 49px;
+    height: 233px;
+    background-image: url("../../images/offer-arrow.png");
+    position: absolute;
+    top: 165px;
+    right: -35px;
+}
+.offer__form-delivery{
+    border-bottom: 7px solid #a8ca3f;
+    border-right: 7px solid #a8ca3f;
+    border-left: 7px solid #a8ca3f;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 150px;
+    margin: 0 auto;
+    padding: 2px 15px 10px 45px;
+    background-color: #f3f9ff;
+    position: absolute;
+    top: -7px;
+    left: 50px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #444444;
+    font-weight: 400;
+}
+.offer__form-delivery:before{
+    content: "";
+    background-image: url("../../images/offer-truck.png");
+    position: absolute;
+    width: 27px;
+    height: 15px;
+    top: 2px;
+    left: 10px;
+}
+.offer__form-title{
+    font-size: 20px;
+    line-height: 22px;
+    color: #000;
+    font-weight: 500;
+    text-align: center;
+    padding: 50px 40px 8px 40px;
+}
+.offer__form-title span{
+    color: #ff6b00;
+    display: block;
+}
+.offer__form-price{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.offer__form-old-price{
+    color: #666666;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: lowercase;
+    position: relative;
+}
+.offer__form-new-price{
+    color: #666666;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: lowercase;
+}
+.offer__form-old-price span,
+.offer__form-new-price span{
+    display: block;
+    font-size: 34px;
+    line-height: 24px;
+    color: #000;
+    padding: 8px 40px 8px 10px;
+}
+.offer__form-old-price span{
+    font-weight: 300;
+}
+.offer__form-new-price span{
+    font-weight: 900;
+    background-color: #ffbf02;
+    border-radius: 5px;
+}
+.offer__form-old-price span:after,
+.offer__form-new-price span:after{
+    font-family: "icomoon";
+    content: "\f158";
+    height: 24px;
+    padding-left: 5px;
+    position: absolute;
+    font-size: 32px;
+}
+.offer__form-old-price span:after{
+    font-weight: 300;
+}
+.offer__form-new-price span:after{
+    font-weight: 500;
+}
+.offer__form-old-price:after,
+.offer__form-old-price:before{
+    content: "";
+    width: 90px;
+    height: 1px;
+    background-color: #ea7845;
+    position: absolute;
+    top: 43px;
+    left: 0;
+}
+.offer__form-old-price:after{
+    transform: rotate(20deg);
+}
+.offer__form-old-price:before{
+    transform: rotate(-20deg);
+}
+
+.offer__form-box{
+    padding-top: 8px;
+}
+.offer__form-box-name,
+.offer__form-box-phone{
+    width: 220px;
+    height: 65px;
+    padding-left: 40px;
+    border-radius: 32px;
+    background-color: #eef2f7;
+    margin: 10px auto;
+    position: relative;
+}
+.offer__form-box input{
+    width: 180px;
+    height: 65px;
+    border: none;
+    outline: none;
+    background-color: #eef2f7;
+    display: block;
+    margin: 10px auto;
+    border-radius: 32px;
+    padding: 10px;
+}
+.offer__form-box input::placeholder{
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.offer__form-box-name:before,
+.offer__form-box-phone:before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+}
+.offer__form-box-name:before{
+    width: 19px;
+    height: 23px;
+    background-image: url("../../images/offer-person.png");
+}
+.offer__form-box-phone:before{
+    width: 21px;
+    height: 24px;
+    background-image: url("../../images/offer-phone.png");
+}
+.offer__form-box-btn{
+    width: 220px;
+    height: 72px;
+    margin: 15px auto;
+    background-color: #ffc002;
+    border-radius: 32px;
+    padding-top: 5px;
+}
+.offer__form-box-btn button{
+    display: block;
+    width: 210px;
+    height: 62px;
+    background-color: #ffc002;
+    border: 1px solid #ffd44e;
+    margin: 0 auto;
+    color: #000000;
+    font-size: 28px;
+    line-height: 22px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 32px;
+}
+.offer__form-box-btn span{
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    margin-top: 3px;
+}
+.offer__form-leftover{
+    color: #333333;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    padding: 0 25px;
+}
+.offer__form-leftover span{
+    color: #9dbd39;
+}
+.offer__form-note{
+    font-size: 14px;
+    line-height: 16px;
+    color: #666;
+    margin-top: 15px;
+    padding: 12px 25px 12px 55px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #eef2f7;
+    position: relative;
+}
+.offer__form-note:before{
+    content: "";
+    width: 19px;
+    height: 20px;
+    background-image: url("../../images/offer-protect.png");
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 25px;
+}
+
+
+

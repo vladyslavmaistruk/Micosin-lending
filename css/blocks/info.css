@@ -1,0 +1,162 @@
+.info{
+    background-image: url("../../images/info-background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 1450px;
+    padding-top: 150px;
+}
+.info__title{
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 900;
+    color: #383334;
+    text-align: center;
+    margin: 20px 0 80px;
+}
+.info__box{
+    display: flex;
+    justify-content: space-between;
+}
+.info__block-1,
+.info__block-2,
+.info__block-3{
+    max-width: 370px;
+    width: 100%;
+    min-height: 590px;
+    background-color: #fff;
+    border-radius: 7px;
+    border-top: 5px solid #a8c53a;
+    box-shadow: 0 0 15px 0 rgba(37, 83, 129, 0.08);
+    padding: 70px 20px 10px;
+    text-align: center;
+    position: relative;
+}
+.info__block-1:before,
+.info__block-2:before,
+.info__block-3:before{
+    content: "";
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 -10px 10px 0 rgba(37, 83, 129, 0.05);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.info__block-1:before{
+    background-image: url("../../images/info-star.png");
+    background-size: 70px 66px;
+    background-color: #f5fcfd;
+}
+.info__block-2:before{
+    background-image: url("../../images/info-lotion.png");
+    background-size: 48px 75px;
+    background-color: #f8fdfe;
+}
+.info__block-3:before{
+    background-image: url("../../images/info-pills.png");
+    background-size: 59px 63px;
+    background-color: #f5fbfc;
+}
+.info__block-1-title,
+.info__block-2-title,
+.info__block-3-title{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #000;
+}
+.info__block-1-text,
+.info__block-2-text,
+.info__block-3-text{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #222222;
+    padding: 10px 30px 20px;
+}
+.info__block-2-text span,
+.info__block-3-text span{
+    display: block;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    font-style: italic;
+    color: #666666;
+}
+.info__line{
+    background-image: url("../../images/info-line.svg");
+    width: 100%;
+    height: 11px;
+}
+.info__but{
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 900;
+    color: #ff6b00;
+    margin-top: 15px;
+}
+.info__block-1-content,
+.info__block-2-content,
+.info__block-3-content{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #444444;
+    padding: 10px 15px 0;
+}
+.info__block-1-content span,
+.info__block-2-content span,
+.info__block-3-content span{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #000;
+}
+.info__bottom{
+    font-size: 21px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 60px;
+    border-radius: 8px;
+    border: 3px solid #f4d3bb;
+    padding: 30px 90px 20px;
+    text-align: center;
+    position: relative;
+}
+.info__bottom span{
+    color: #000;
+    font-weight: 600;
+}
+.info__bottom-title{
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.info__bottom:before{
+    content: "!";
+    width: 170px;
+    font-size: 70px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #f4d3bb;
+    text-align: center;
+    background-color: #f8fdfe;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+

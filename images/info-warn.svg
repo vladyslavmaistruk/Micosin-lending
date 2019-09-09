@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="11" height="50" viewBox="0 0 11 50">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 70px;
+        fill: #f4d3bb;
+        text-anchor: middle;
+        font-family: Roboto;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="_" data-name="!" class="cls-1" x="6.004" y="49.723"><tspan x="6.004">!</tspan></text>
+</svg>
